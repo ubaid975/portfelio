@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    height: 100vh;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: black;
+    color: white;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    
+    
+}
+
+
+ul{
+    display: flex;
+    gap: 2em;
+    margin-right: 2em;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    
+    color: white;
+    padding: 0.5em 2.5em;
+    border-radius: 50px;
+
+    
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.con{
+    display: flex;
+    align-items: center;
+    
+}
+.head{
+    margin-left: 2em;
+}
+.section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.img img{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 5px solid black;
+    animation: profile 2s ease-in 1;
+    
+}
+
+
+
+.skills-section{
+    
+    height: 100%;
+
+}
+.skills h2{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.skillcon{
+    width: 80%;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    justify-content: space-evenly;
+    
+    height: 100%;
+
+}
+.skill1 span{
+    display: inline-block;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 10px solid green;
+    border: none;
+    margin-left: 0.5em;
+    animation: skills 1s 2s ease-in 1 forwards ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+    
+}
+.skill1{
+    margin: 1em 1em;
+    
+}
+.imgnew{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.skill1 img{
+    width: 3em;
+    height: 3em;
+    
+    display: inline;
+    border-radius: 50%;
+    
+    
+}
+
+
+.skills{
+    
+    height: 100%;
+}
+
+.aboutus{
+    margin-top: 10em;
+    
+}
+.aboutcon{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.aboutcon .tittle{
+    margin-bottom: 1em;
+}
+.aboutcon .pera p{
+    text-wrap: wrap;
+    text-justify: newspaper;
+    text-align: center;
+}
+
+.Services{
+    margin-top: 10em;
+}
+.Services h2{
+    text-align: center;
+    margin: 1em 0;
+}
+.scontainer{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.service{
+    background-color: black;
+    color: white;
+    margin: 2em 2.5em;
+    
+    
+    width: 26%;
+    border-radius: 50px;
+}
+
+
+.service .s1img img{
+    display: block;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.service .stittle{
+    margin: 1em 0;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.service .desc{
+    text-align: center;
+}
+
+.service .desc p{
+    text-justify: auto;
+    padding: 1em 1em;
+    text-wrap: wrap;
+    margin: 0;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    
+    
+}
+.contactcon{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.f1 img{
+    display: inline-block;
+    width: 3em;
+    height: 2em;
+    border-radius: 50%;
+}
+.f1{
+    display: flex;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 5em;
+}
+.Contactus h2{
+    text-align: center;
+    margin: 1em 0;
+}
+.Contactus{
+    margin-top:10em ;
+}
+form{
+    border: none;
+    width: 100%;
+    border-radius: 50px;
+    padding: 1em 1em;
+    animation: form 3s ease-in-out infinite forwards;
+}
+form .input{
+    display: flex;
+    flex-direction: column;
+}
+form .input label{
+    margin: 0.5em;
+    
+}
+form .input input{
+    width: 40em;
+    padding-bottom: 1em;
+    padding: 0.5em;
+    font-size: 1rem;
+    text-align: left;
+}
+.message{
+    display: inline-block;
+    width: 78%;
+    margin: 2em auto;
+    
+    
+}
+.message p{
+    text-align: end;
+    
+    
+    
+}
+form button{
+    margin-top: 1em;
+    padding: 0.5em 2em;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: white;
+    color: blue;
+    
+}
+.links img{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin: 1em 1em;
+    
+}
+.links img:hover{
+    transform: rotate(10deg);
+}
+.cv{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-align: center;
+    border-radius: 50px;
+    margin: 0.2em 0;
+}
+.cv:hover{
+    background-color: white;
+    color: blue;
+}
+footer{
+    margin-top: 10em;
+}
+.footercontainer{
+    background-color: black;
+    color: wheat;
+    padding: 3em 3em ;
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 1em 5em;
+    border-radius: 50px;
+}
+.button a:hover{
+    background: transparent;
+    
+}
+@keyframes skills {
+    0%{
+        border: none;
+    }
+    25%{
+        border-top:10px solid green ;
+    }
+    50%{
+        border-right:10px solid green;
+    }
+    75%{
+        border-bottom:10px solid green;
+    }
+    90%{
+        border-left:10px solid green;
+    }
+    100%{
+        border: 10px solid green;
+    }
+
+}
+@keyframes form {
+    0%{
+        border: none;
+    }
+    25%{
+        border-top:10px solid black ;
+    }
+    50%{
+        border-right:10px solid black;
+    }
+    75%{
+        border-bottom:10px solid black;
+    }
+    90%{
+        border-left:10px solid black;
+    }
+    100%{
+        border: 10px solid black;
+    }
+
+}
+
+@keyframes profile {
+    0%{
+        border: 88px solid black;
+    }
+    5%{
+        border: 80px solid black;
+    }
+    20%{
+        border: 70px solid black ;
+    }
+    40%{
+        border: 60px solid black ;
+    }
+    60%{
+        border: 40px solid black;
+    }
+    80%{
+        border: 20px solid black;
+    }
+    100%{
+        border: 5px solid black;
+    }
+}
+
+@media ( max-width:1042px){
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .head{
+        padding: 1em 0;
+    }
+    .section{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .tittle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .Introsec{
+        width: 100%;
+    }
+    .cv{
+        margin-top: 1em;
+    }
+    
+    .service{
+        
+        width: 100%;
+    }
+    
+    .contactcon{
+        
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+
+    }
+    .form{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    form .input input{
+        width: 100%;
+    }
+    }
+
+@media ( max-width:781px) {
+    nav ul {
+        gap: 0;
+    }
+}
+    @media ( max-width:688px) {
+        nav ul li a{
+            padding: 0.5em 1.5em;
+        }
+        .service .desc p{
+            padding: 0 2em;
+        }
+        
+    }
+   
+
+@media ( max-width:548px) {
+    nav ul li a{
+        padding: 0.5em 0.5em;
+    }
+}
+@media ( max-width:505px) {
+ nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+    
+ }  
+ nav ul li{
+    font-size: 1rem;
+ }
+ nav ul li a{
+    font-size: 1rem;
+    text-align: center;
+ }
+.head h1{
+    text-align: center;
+}
+.Introsec{
+    padding: 15em 0;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    
+}
+.tittle{
+    text-align: center;
+}
+.skills-section{
+    margin: 10em 0;
+}
+form .input input{
+    width: 100%;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+}
+.button a{
+    padding:1em 3em;
+}
+  
